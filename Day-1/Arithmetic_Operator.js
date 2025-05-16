@@ -1,9 +1,3 @@
-
-
-function readLine() {
-    return inputString[currentLine++];
-}
-
 /**
 *   Calculate the area of a rectangle.
 *
@@ -34,13 +28,4 @@ function getPerimeter(length, width) {
     perimeter = 2*(length+width)
     
     return perimeter;
-}
-
-
-function main() {
-    const length = +(readLine());
-    const width = +(readLine());
-    
-    console.log(getArea(length, width));
-    console.log(getPerimeter(length, width));
 }
